@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
 export default function CountdownTimer() {
-  const eventDateUTC = new Date("2026-01-30T20:00:00Z").getTime(); // Ubah menjadi Tanggal sebenarnya.
-  const eventDate = new Date(eventDateUTC - 7 * 60 * 60 * 1000); // Dalam WIB.
+  const eventDateUTC = new Date("2025-02-04T08:00:00Z").getTime(); // Ubah menjadi Tanggal sebenarnya.
+  const eventDate = eventDateUTC - 7 * 60 * 60 * 1000; // Keep it as a timestamp (number)
   const [timeRemaining, setTimeRemaining] = useState(
     eventDate - new Date().getTime()
   );
