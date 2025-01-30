@@ -29,20 +29,28 @@ export default function Main() {
         </p>
       </div>
       {/* Venue */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Venue</h2>
 
       {/*  Lomba best costume */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Lomba Best Costume</h2>
 
       {/* Registration card */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Register Card</h2>
 
       {/* Route (Rute) */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Rute</h2>
 
       {/* Racepack Kit */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Racepack Kit</h2>
 
       {/* Doorprize */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Doorprize</h2>
 
       {/* Gallery */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Gallery</h2>
 
       {/* Sponsors */}
+      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Sponsor Kami</h2>
 
     </div>
   );
