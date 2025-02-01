@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/*Using Tailwind v.4.0.0*/
+
+/* Custom-defined styles */
+
+/* Leaflet Styles */
+
+.leaflet-container {
+  width: 100%;
+  max-width: 800px; /* Optional */
+  margin: 0 auto;
+  aspect-ratio: 2 / 1; /* Width : Height = 1:2 */
+}
+
+/* Fix for Leaflet’s internal div */
+.leaflet-container .leaflet-map {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+    .leaflet-container {
+      aspect-ratio: 1.5 / 1; /* Slightly wider on mobile */
+      max-width: 100%; /* Full width */
+    }
+  }

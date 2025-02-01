@@ -54,9 +54,9 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="text-center md:text-left mb-6">
             <p className="text-lg font-semibold">Contact Person</p>
-            <p>Nama 1:</p>
-            <p>Nama 2:</p>
-            <p>Nama 3:</p>
+            <p>Nama 1: no telp / insta or line or whatever &#40; MEDIA PARTNER &#41;</p>
+            <p>Nama 2: no telp / insta or line or whatever idk &#40; FNB &#41;</p>
+            <p>Nama 3: no telp / insta or line or whatever idk lol &#40; SPONSORS &#41;</p>
             <p>Malik: https://github.com/mbzilr | @malikbazilrabbani on IG. &#40; Website 💻 &#41;</p>
             <p>Email: publikskyrun@gmail.com</p>
           </div>

@@ -1,10 +1,11 @@
 import CountdownTimer from "./ui/CountdownTimer";
+import Map from "./ui/Maps";
 
 export default function Main() {
   return (
     <div className="p-2" id="main-body">
       {/* Header of SKYRUN 2025 */}
-      <div className="text-center text-4xl font-black">
+      <div className="text-center text-4xl font-black @container">
         <h1 className="md:text-7xl">SKYRUN 2025</h1>
         <h2 className="text-2xl md:text-4xl">Hari, XX BULAN 2025</h2>
       </div>
@@ -29,7 +30,9 @@ export default function Main() {
         </p>
       </div>
       {/* Venue */}
-      <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Venue</h2>
+      <h2 className="mb-2 md:mb-4 mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">VENUE AREA PLAZA SUDIRMAN</h2>
+      <Map />
+      <p className="text-center my-2 text-neutral-500 italic">*Mungkin akan diupdate menggunakan google maps ketika API Key tersedia.</p>
 
       {/*  Lomba best costume */}
       <h2 className="mt-4 md:mt-8 text-center text-2xl md:text-4xl font-extrabold">Lomba Best Costume</h2>
