@@ -1,6 +1,5 @@
 @import "tailwindcss";
-
-/*Using Tailwind v.4.0.0*/
+@config "../../tailwind.config.js";
 
 /* Custom-defined styles */
 
