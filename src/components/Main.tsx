@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <div className="p-2" id="main-body">
       {/* Header of SKYRUN 2025 */}
-      <div className="text-center text-4xl font-black @container">
+      <div className="text-center text-4xl font-black">
         <h1 className="md:text-7xl">SKYRUN 2025</h1>
         <h2 className="text-2xl md:text-4xl">Hari, XX BULAN 2025</h2>
       </div>
