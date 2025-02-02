@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "rebuild": "rm -rf node_modules .astro dist && bun install & bun run build"
   },
   "dependencies": {
     "@astrojs/react": "^4.2.0",

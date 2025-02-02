@@ -4,9 +4,16 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="py-6 px-6 md:px-20 bg-white shadow md:flex md:items-center md:justify-between">
+    <nav className="py-6 px-6 md:px-20 bg-white md:bg-white/10 shadow-neutral-400 shadow-sm md:shadow-lg md:flex md:items-center md:justify-between">
       <div className="flex justify-between items-center w-full md:w-auto">
-        <span className="text-2xl font-black cursor-pointer">SKYRUN</span>
+        <a
+          className="text-2xl font-black cursor-pointer"
+          href="/"
+          target=""
+          rel="noopener noreferrer"
+        >
+          SKYRUN
+        </a>
 
         {/* Mobile Menu Icon */}
         {/*TODO: Add Transition*/}
@@ -75,8 +82,24 @@ export default function Navbar() {
           </a>
         </li>
         <li className="mx-2 my-5 md:my-0">
-          <a href="https://www.racewoxx.com/login?code=SKU" target="_blank" rel="noopener noreferrer">
-            <button className="bg-green-800 text-white px-6 py-2 mx-2 md:mx-4 hover:bg-green-600 rounded-md">
+          <a
+            href="https://www.racewoxx.com/login?code=SKU"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-green-800 text-white font-bold px-6 py-2 mx-2 md:mx-4 hover:bg-green-600 rounded-md flex items-center gap-2 cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="size-6 stroke-3"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M7.5 3.75A1.5 1.5 0 0 0 6 5.25v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5V15a.75.75 0 0 1 1.5 0v3.75a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V5.25a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3V9A.75.75 0 0 1 15 9V5.25a1.5 1.5 0 0 0-1.5-1.5h-6Zm10.72 4.72a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H9a.75.75 0 0 1 0-1.5h10.94l-1.72-1.72a.75.75 0 0 1 0-1.06Z"
+                  clipRule="evenodd"
+                />
+              </svg>
               Registrasi
             </button>
           </a>
